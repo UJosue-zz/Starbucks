@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Starbucks</string>
+    <string name="txtInicio">¿Cuántas tazas de café desea?</string>
+    <string name="txtPedir">Pedir</string>
+    <string name="txtPedido">Pedido</string>
+    <string name="txtTazas">tazas</string>
+    <string name="txtTotal">Total:</string>
+    <string name="txtMoneda">Q</string>
+    <string name="txtComprar">Comprar</string>
 </resources>

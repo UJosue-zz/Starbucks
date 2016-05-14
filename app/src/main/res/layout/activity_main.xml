@@ -9,8 +9,43 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="me.ujosue.starbucks.MainActivity">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/starbucks"
+        android:minHeight="200dp"
+        android:minWidth="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/etPedir"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginTop="81dp"
+        android:textAlignment="center"
+        android:hint="Tazas" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/txtInicio" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtPedir"
+        android:id="@+id/btnPedir"
+        android:layout_below="@+id/etPedir"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
